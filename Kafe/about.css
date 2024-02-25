@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-color: chocolate; */
+    background-image: url(resimler/arkaplan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+
+.ana{
+    width: 100%;
+    height: 70vh;
+}
+
+
+
+.nav1{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* flex-direction: column; */
+    background-color: rgb(41, 26, 26);
+    width: 100%;
+    height: 5rem;
+    padding: 10px;
+    /* position: fixed; */
+   
+    
+}
+.nav1 a{
+    text-decoration: none;
+    color:white;
+    font-family: "montserrat", sans-serif;
+    font-weight: bold;
+}
+.nav1 a:hover{
+    border-bottom: 1px solid white;
+    
+    padding: 2px;
+    font-size: 1.2rem;
+   
+}
+.home{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.home2{
+    margin: 5rem auto;
+    color:white;
+    border-radius: 10px;
+    background-color: rgb(41, 26, 26);
+    /* background-image: url(resimler/arkaplan.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    filter : blur(2); rgb(41, 26, 26) */
+    padding: 15px;
+
+}
+.home2 h1{
+    font-size: 2.5rem;
+    text-decoration: underline;
+    margin: 0 auto;
+}
+.home2 h3{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:900px) {
+    .nav1{
+        background-color: rgb(41, 26, 26);
+        display: block;
+    }
+    .nav1 a{
+        font-size: 24px;
+        display: block;
+        text-align: center;
+        background-color: rgb(41, 26, 26);
+    }
+    .kartlar{
+        margin-top: 12rem;
+    }
+    .home{
+        display: block;
+    }
+
+
+    .home img {
+        
+        display: block;
+        text-align: center;
+        width: 200px;;
+        height: 200px;
+        position: absolute;
+        left:5rem;
+        top:15rem;
+
+    }
+  
+
+
+
+    }

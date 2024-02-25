@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    background-color: cadetblue;
+    overflow: hidden;
+
+}
+
+.navbar a{
+    display: flex;
+    color:white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    float: left;
+}
+.navbar a:hover{
+    background-color: palegreen;
+    color:black;
+}
+
+@media screen and (max-width:900px) {
+.navbar{
+    background-color: yellow;
+}
+.navbar a{
+    font-size: 50px;
+}
+}
+@media  screen and (min-width:600px) {
+    .navbar{
+        background-color: brown;
+    }
+    .navbar a{
+        display: block;
+        width: 100%;
+    }
+    
+}
